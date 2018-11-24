@@ -36,6 +36,7 @@
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -112,11 +113,20 @@
             this.webBrowser1.TabIndex = 7;
             this.webBrowser1.Url = new System.Uri("http://www.google.com.br", System.UriKind.Absolute);
             // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Location = new System.Drawing.Point(349, 54);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(210, 89);
+            this.checkedListBox1.TabIndex = 8;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.radioButton1);
@@ -143,6 +153,7 @@
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.WebBrowser webBrowser1;
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
     }
 }
 
