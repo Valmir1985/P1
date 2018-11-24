@@ -34,6 +34,7 @@
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -85,11 +86,20 @@
             this.radioButton1.Text = "radioButton1";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(98, 213);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(120, 95);
+            this.listBox1.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.progressBar1);
@@ -111,6 +121,7 @@
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.MonthCalendar monthCalendar1;
         private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
 
