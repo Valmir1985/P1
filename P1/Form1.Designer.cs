@@ -38,6 +38,7 @@
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
@@ -100,7 +101,7 @@
             // webBrowser1
             // 
             this.webBrowser1.Location = new System.Drawing.Point(505, 213);
-            this.webBrowser1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.webBrowser1.Margin = new System.Windows.Forms.Padding(2);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(15, 16);
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(257, 203);
@@ -112,8 +113,10 @@
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.Location = new System.Drawing.Point(349, 54);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(210, 89);
+            this.checkedListBox1.Size = new System.Drawing.Size(210, 79);
             this.checkedListBox1.TabIndex = 8;
+            // 
+            // richTextBox1
             // 
             this.richTextBox1.Location = new System.Drawing.Point(180, 384);
             this.richTextBox1.Name = "richTextBox1";
@@ -121,12 +124,22 @@
             this.richTextBox1.TabIndex = 9;
             this.richTextBox1.Text = "";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(100, 51);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "label2";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.richTextBox1);
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.listBox1);
@@ -155,6 +168,7 @@
         private System.Windows.Forms.WebBrowser webBrowser1;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
